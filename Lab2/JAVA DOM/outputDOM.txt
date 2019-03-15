@@ -1,0 +1,34 @@
+
+	################## LEVEL 1 ##################
+
+~~~ Node Name: Level_1 - Node Value: null
+		Attributes:
+			attr = 0
+
+	################## LEVEL 2 ##################
+
+~~~ Node Name: Level_2A - Node Value: null
+		Attributes:
+			attr = 1
+~~~ Node Name: Level_2B - Node Value: null
+		Attributes:
+			attr = 2
+~~~ Node Name: Level_2C - Node Value: null
+		Attributes:
+			attr = 3
+			attr2 = 4
+
+	################## LEVEL 3 ##################
+
+~~~ Node Name: Level_3AA - Node Value: text
+~~~ Node Name: Level_3AB - Node Value: text
+~~~ Node Name: Level_3AC - Node Value: text
+~~~ Node Name: Level_3AD - Node Value: text
+~~~ Node Name: Level_3BA - Node Value: text
+~~~ Node Name: Level_3BB - Node Value: text
+~~~ Node Name: Level_3BC - Node Value: text
+~~~ Node Name: Level_3BD - Node Value: text
+~~~ Node Name: Level_3CA - Node Value: text
+~~~ Node Name: Level_3CB - Node Value: text
+~~~ Node Name: Level_3CC - Node Value: text
+~~~ Node Name: Level_3CD - Node Value: text

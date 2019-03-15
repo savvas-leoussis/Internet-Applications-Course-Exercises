@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   Copyright 1999-2004 The Apache Software Foundation
+ -->
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+    "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+
+<!-- web-app element was originally found empty - the following are additions 
+      for the demonstration of HTTPGetServlet -->
+<web-app>
+  <servlet> <!-- the following name will refer to the sepecified class -->
+     <servlet-name>form_A</servlet-name>
+     <servlet-class>form_A</servlet-class>
+  </servlet>    
+  <servlet> <!-- the following name will refer to the sepecified class -->
+     <servlet-name>form_B</servlet-name>
+     <servlet-class>form_B</servlet-class>
+  </servlet>   
+  <servlet> <!-- the following name will refer to the sepecified class -->
+     <servlet-name>form_C</servlet-name>
+     <servlet-class>form_C</servlet-class>
+  </servlet> 
+   <servlet-mapping><!-- the following (same) name will called as the specified url patttern
+                                    so hitting http://localhost:8080/myAskisisDir/form_A/* (any thing) 
+                                    will lead  to form_A    -->
+     <servlet-name>form_A</servlet-name>
+     <url-pattern>/form_A/*</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping><!-- the following (same) name will called as the specified url patttern 
+                                    so hitting http://localhost:8080/myAskisisDir/form_B/* (any thing) 
+                                    will lead  to form_B  -->
+     <servlet-name>form_B</servlet-name>
+     <url-pattern>/form_B/*</url-pattern>
+     </servlet-mapping>
+     <servlet-mapping><!-- the following (same) name will called as the specified url patttern 
+                                    so hitting http://localhost:8080/myAskisisDir/form_C/* (any thing) 
+                                    will lead  to form_C  -->
+     <servlet-name>form_C</servlet-name>
+     <url-pattern>/form_C/*</url-pattern>
+     </servlet-mapping>
+</web-app>

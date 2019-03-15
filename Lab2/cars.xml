@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="cars.xsl" type="text/xsl"?>
+<vehicles>
+    <vehicle year="1995" make="Toyota" model="Prius">
+        <mileage>36500</mileage>
+        <color>Silver</color>
+        <price>$34100</price>
+    </vehicle>
+    <vehicle year="2000" make="Audi" model="TT Quattro">
+        <mileage>3550</mileage>
+        <color>Black</color>
+        <price>$41600</price>
+    </vehicle>
+    <vehicle year="2003" make="Citroen" model="C4 Picasso">
+        <mileage>25800</mileage>
+        <color>Cyan</color>
+        <price>$18900</price>
+    </vehicle>
+    <vehicle year="2005" make="BMW" model="F12">
+        <mileage>49300</mileage>
+        <color>White</color>
+        <price>$56995</price>
+    </vehicle>
+    <vehicle year="2008" make="Peugeot" model="308">
+        <mileage>14700</mileage>
+        <color>Blue</color>
+        <price>$22500</price>
+    </vehicle>
+</vehicles>

@@ -1,0 +1,1 @@
+java -cp C:\Users\savva\Desktop\xalan.jar org.apache.xalan.xslt.Process -IN cars.xml -XSL cars.xsl -OUT cars.html

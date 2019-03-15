@@ -1,0 +1,28 @@
+
+==============
+Listen Port: 8080
+Target Host: 127.0.0.1
+Target Port: 8080
+==== Request ====
+POST /soap/servlet/rpcrouter HTTP/1.0
+Host: 127.0.0.1:8080
+Content-Type: text/xml; charset=utf-8
+Content-Length: 789
+SOAPAction: ""
+
+<?xml version='1.0' encoding='UTF-8'?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SOAP-ENV:Body>
+<ns1:addV xmlns:ns1="urn:BVehicleCatalog" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<vObj xmlns:ns2="urn:VBean_xmlns" xsi:type="ns2:vObj">
+<VManufacturer xmlns:ns3="urn:MBean_xmlns" xsi:type="ns3:mObj">
+<manCountry xsi:type="xsd:string">Japan</manCountry>
+<manName xsi:type="xsd:string">Toyota</manName>
+<manYear xsi:type="xsd:integer">1937</manYear>
+</VManufacturer>
+<VModel xsi:type="xsd:string">Avensis</VModel>
+<VYear xsi:type="xsd:string">2008</VYear>
+</vObj>
+</ns1:addV>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

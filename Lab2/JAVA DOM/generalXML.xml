@@ -1,0 +1,21 @@
+<?xml version = "1.0"?>
+<Level_1 attr="0">
+    <Level_2A attr = "1">
+        <Level_3AA>text</Level_3AA>
+        <Level_3AB>text</Level_3AB>
+        <Level_3AC>text</Level_3AC>
+        <Level_3AD>text</Level_3AD>
+    </Level_2A>
+    <Level_2B attr = "2">
+        <Level_3BA>text</Level_3BA>
+        <Level_3BB>text</Level_3BB>
+        <Level_3BC>text</Level_3BC>
+        <Level_3BD>text</Level_3BD>
+    </Level_2B>
+    <Level_2C attr = "3" attr2 = "4">
+        <Level_3CA>text</Level_3CA>
+        <Level_3CB>text</Level_3CB>
+        <Level_3CC>text</Level_3CC>
+        <Level_3CD>text</Level_3CD>
+    </Level_2C>
+</Level_1>
